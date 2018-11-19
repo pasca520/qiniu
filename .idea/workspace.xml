@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1af490e-e347-4510-921a-e3dd87769822" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/kodo/list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodo/build_batch_move.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,6 +19,7 @@
     <SUITE FILE_PATH="coverage/qiniu$buckets.coverage" NAME="buckets Coverage Results" MODIFIED="1542362371823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/qiniu$list.coverage" NAME="list Coverage Results" MODIFIED="1542616398879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kodo" />
     <SUITE FILE_PATH="coverage/qiniu$upload.coverage" NAME="upload Coverage Results" MODIFIED="1542612243362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kodo" />
+    <SUITE FILE_PATH="coverage/qiniu$build_batch_move.coverage" NAME="build_batch_move Coverage Results" MODIFIED="1542617229245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kodo" />
     <SUITE FILE_PATH="coverage/qiniu$domain_list.coverage" NAME="domain_list Coverage Results" MODIFIED="1542609206758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kodo" />
     <SUITE FILE_PATH="coverage/qiniu$stat.coverage" NAME="stat Coverage Results" MODIFIED="1542614696637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kodo" />
     <SUITE FILE_PATH="coverage/qiniu$chgm.coverage" NAME="chgm Coverage Results" MODIFIED="1542615494352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kodo" />
@@ -38,7 +38,7 @@
       <file leaf-file-name="tset.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kodo/tset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
+            <state relative-caret-position="84">
               <caret line="7" column="38" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="38" />
               <folding>
                 <element signature="e#41#63#0" expanded="true" />
@@ -59,14 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kodo/list.py">
+      <file leaf-file-name="build_batch_move.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kodo/build_batch_move.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
+            <state relative-caret-position="104">
               <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -76,6 +73,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="185">
               <caret line="20" column="44" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bucket.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/qiniu/venv/lib/python3.7/site-packages/qiniu/services/storage/bucket.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="330" column="58" selection-start-line="330" selection-start-column="49" selection-end-line="330" selection-end-column="58" />
+              <folding>
+                <element signature="e#25#49#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,6 +134,7 @@
         <option value="$PROJECT_DIR$/My_AKSK.py" />
         <option value="$PROJECT_DIR$/kodo/move.py" />
         <option value="$PROJECT_DIR$/kodo/list.py" />
+        <option value="$PROJECT_DIR$/kodo/build_batch_move.py" />
       </list>
     </option>
   </component>
@@ -198,7 +208,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.list">
+  <component name="RunManager" selected="Python.build_batch_move">
+    <configuration name="build_batch_move" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="qiniu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kodo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kodo/build_batch_move.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="chgm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="qiniu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -275,39 +304,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="upload_url" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="qiniu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kodo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kodo/upload_url.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.upload_url" />
       <item itemvalue="Python.stat" />
       <item itemvalue="Python.chgm" />
       <item itemvalue="Python.move" />
       <item itemvalue="Python.list" />
+      <item itemvalue="Python.build_batch_move" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.build_batch_move" />
         <item itemvalue="Python.list" />
         <item itemvalue="Python.move" />
         <item itemvalue="Python.chgm" />
         <item itemvalue="Python.stat" />
-        <item itemvalue="Python.upload_url" />
       </list>
     </recent_temporary>
   </component>
@@ -457,16 +467,6 @@
     <entry file="file://$PROJECT_DIR$/mkbucketv2.py" />
     <entry file="file://$PROJECT_DIR$/buckets.py" />
     <entry file="file://$PROJECT_DIR$/domain/list.py" />
-    <entry file="file://$USER_HOME$/PycharmProjects/qiniu/venv/lib/python3.7/site-packages/qiniu/services/storage/bucket.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#25#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodo/mkbucketv2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -596,9 +596,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kodo/list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodo/stat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/qiniu/venv/lib/python3.7/site-packages/qiniu/services/storage/bucket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="330" column="58" selection-start-line="330" selection-start-column="49" selection-end-line="330" selection-end-column="58" />
+          <folding>
+            <element signature="e#25#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kodo/tset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="84">
           <caret line="7" column="38" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="38" />
           <folding>
             <element signature="e#41#63#0" expanded="true" />
@@ -613,23 +643,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodo/stat.py">
+    <entry file="file://$PROJECT_DIR$/kodo/build_batch_move.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodo/list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
+        <state relative-caret-position="104">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
