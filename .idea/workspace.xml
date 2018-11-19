@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1af490e-e347-4510-921a-e3dd87769822" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/kodo/build_batch_move.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodo/build_batch_delete.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,6 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/qiniu$tset.coverage" NAME="tset Coverage Results" MODIFIED="1542611883677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kodo" />
+    <SUITE FILE_PATH="coverage/qiniu$build_batch_delete.coverage" NAME="build_batch_delete Coverage Results" MODIFIED="1542618088395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kodo" />
     <SUITE FILE_PATH="coverage/qiniu$upload_url.coverage" NAME="upload_url Coverage Results" MODIFIED="1542613919408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kodo" />
     <SUITE FILE_PATH="coverage/qiniu$mkbucketv2.coverage" NAME="mkbucketv2 Coverage Results" MODIFIED="1542362116035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/qiniu$move.coverage" NAME="move Coverage Results" MODIFIED="1542615974271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kodo" />
@@ -29,8 +31,8 @@
       <file leaf-file-name="My_AKSK.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/My_AKSK.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="22" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -59,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build_batch_move.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kodo/build_batch_move.py">
+      <file leaf-file-name="build_batch_delete.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kodo/build_batch_delete.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="376">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -80,8 +82,8 @@
       <file leaf-file-name="bucket.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/PycharmProjects/qiniu/venv/lib/python3.7/site-packages/qiniu/services/storage/bucket.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="330" column="58" selection-start-line="330" selection-start-column="49" selection-end-line="330" selection-end-column="58" />
+            <state relative-caret-position="285">
+              <caret line="234" column="32" selection-start-line="234" selection-start-column="24" selection-end-line="234" selection-end-column="32" />
               <folding>
                 <element signature="e#25#49#0" expanded="true" />
               </folding>
@@ -135,6 +137,7 @@
         <option value="$PROJECT_DIR$/kodo/move.py" />
         <option value="$PROJECT_DIR$/kodo/list.py" />
         <option value="$PROJECT_DIR$/kodo/build_batch_move.py" />
+        <option value="$PROJECT_DIR$/kodo/build_batch_delete.py" />
       </list>
     </option>
   </component>
@@ -208,7 +211,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.build_batch_move">
+  <component name="RunManager" selected="Python.build_batch_delete">
+    <configuration name="build_batch_delete" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="qiniu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kodo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kodo/build_batch_delete.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="build_batch_move" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="qiniu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,39 +307,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="stat" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="qiniu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kodo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kodo/stat.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.stat" />
       <item itemvalue="Python.chgm" />
       <item itemvalue="Python.move" />
       <item itemvalue="Python.list" />
       <item itemvalue="Python.build_batch_move" />
+      <item itemvalue="Python.build_batch_delete" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.build_batch_delete" />
         <item itemvalue="Python.build_batch_move" />
         <item itemvalue="Python.list" />
         <item itemvalue="Python.move" />
         <item itemvalue="Python.chgm" />
-        <item itemvalue="Python.stat" />
       </list>
     </recent_temporary>
   </component>
@@ -569,13 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/qiniu/venv/lib/python3.7/site-packages/qiniu/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodo/chgm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -616,16 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/qiniu/venv/lib/python3.7/site-packages/qiniu/services/storage/bucket.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="330" column="58" selection-start-line="330" selection-start-column="49" selection-end-line="330" selection-end-column="58" />
-          <folding>
-            <element signature="e#25#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodo/tset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -638,15 +624,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/My_AKSK.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="22" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kodo/build_batch_move.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="332">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/qiniu/venv/lib/python3.7/site-packages/qiniu/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/qiniu/venv/lib/python3.7/site-packages/qiniu/services/storage/bucket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="234" column="32" selection-start-line="234" selection-start-column="24" selection-end-line="234" selection-end-column="32" />
+          <folding>
+            <element signature="e#25#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodo/build_batch_delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
