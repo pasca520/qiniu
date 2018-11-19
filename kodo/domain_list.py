@@ -21,8 +21,8 @@ def get_result(url, host, Content_Type, QboxToken):
     return response.text
 
 def main():
-    Your_AK = 'your_ak'
-    Your_SK = 'your_sk'
+    Your_AK = 'Your_ak'
+    Your_SK = 'Your_sk'
     # q = Auth(Your_AK, Your_SK)
     token_url = '/v6/domain/list?tbl=2018_11_16\n '
     url = 'http://api.qiniu.com/v6/domain/list?tbl=2018_11_16'

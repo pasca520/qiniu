@@ -2,8 +2,8 @@
 # flake8: noqa
 from qiniu import Auth, put_file, etag
 #需要填写你的 Access Key 和 Secret Key
-access_key = 'cbjqXDJKDDy9wy2sRRq2NulALQKhE7l6EZv9XV3S'
-secret_key = '6fZVQq_U4hxx-q6fQ69TfHUsBXlXACSoH9S2NToW'
+access_key = 'your_ak'
+secret_key = 'your_sk'
 #构建鉴权对象
 q = Auth(access_key, secret_key)
 #要上传的空间
