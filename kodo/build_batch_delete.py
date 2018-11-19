@@ -1,8 +1,8 @@
 # 批量删除文件
 
 from qiniu import build_batch_delete, Auth, BucketManager
-access_key = 'cbjqXDJKDDy9wy2sRRq2NulALQKhE7l6EZv9XV3S'
-secret_key = '6fZVQq_U4hxx-q6fQ69TfHUsBXlXACSoH9S2NToW'
+access_key = 'your_AK'
+secret_key = 'your_SK'
 
 #初始化
 q = Auth(access_key, secret_key)
