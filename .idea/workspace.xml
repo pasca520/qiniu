@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1af490e-e347-4510-921a-e3dd87769822" name="默认" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fusion/Create_CDN_domain.py" beforeDir="false" afterPath="$PROJECT_DIR$/fusion/Create_CDN_domain.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodo/build_upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/kodo/build_upload.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,10 +40,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Create_CDN_domain.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build_upload.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kodo/build_upload.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Create_CDN_domain.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fusion/Create_CDN_domain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
+            <state relative-caret-position="754">
               <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
@@ -154,10 +164,10 @@
         <option value="$PROJECT_DIR$/kodo/build_batch_delete.py" />
         <option value="$PROJECT_DIR$/kodo/domain_list.py" />
         <option value="$PROJECT_DIR$/kodo/buckets2.py" />
-        <option value="$PROJECT_DIR$/kodo/build_upload.py" />
         <option value="$PROJECT_DIR$/Create_CDN_domain.py" />
         <option value="$PROJECT_DIR$/kodo/Token.py" />
         <option value="$PROJECT_DIR$/fusion/Create_CDN_domain.py" />
+        <option value="$PROJECT_DIR$/kodo/build_upload.py" />
       </list>
     </option>
   </component>
@@ -186,6 +196,11 @@
             <path>
               <item name="qiniu" type="b2602c69:ProjectViewProjectNode" />
               <item name="qiniu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qiniu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qiniu" type="462c0819:PsiDirectoryNode" />
+              <item name="kodo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -363,9 +378,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
-      <window_info active="true" anchor="bottom" x="21" y="314" width="1398" height="272" id="Run" order="2" sideWeight="0.5007153" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" x="21" y="314" width="1398" height="272" id="Run" order="2" sideWeight="0.5007153" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.32969698" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15450644" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15450644" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -423,8 +438,12 @@
           <line>42</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kodo/build_upload.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -659,16 +678,6 @@
         <state relative-caret-position="-1831" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodo/build_upload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/qiniu/venv/lib/python3.7/site-packages/qiniu/auth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -703,6 +712,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fusion/Create_CDN_domain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/My_AKSK.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -710,12 +729,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fusion/Create_CDN_domain.py">
+    <entry file="file://$PROJECT_DIR$/kodo/build_upload.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        <state relative-caret-position="286">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>

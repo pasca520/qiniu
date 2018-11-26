@@ -8,8 +8,8 @@ import subprocess
 __author__ = "pasca"
 
 #  这里都是自己手动输入的一些信息，可以考虑图形化
-access_key = 'cbjqXDJKDDy9wy2sRRq2NulALQKhE7l6EZv9XV3S'  #你的AK
-secret_key = '6fZVQq_U4hxx-q6fQ69TfHUsBXlXACSoH9S2NToW'    #你的SK
+access_key = 'your_AK'
+secret_key = 'your_SK'
 bucket_name = '2018_11_16'  #待上传空间名
 bucket_url = 'pia5c8gzf.bkt.clouddn.com'
 
