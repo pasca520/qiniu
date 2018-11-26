@@ -3,6 +3,8 @@ from qiniu import Auth, PersistentFop, build_op, op_save, urlsafe_base64_encode
 access_key = 'your_AK'
 secret_key = 'your_SK'
 
+
+
 # 初始化Auth状态
 q = Auth(access_key, secret_key)
 
