@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1af490e-e347-4510-921a-e3dd87769822" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/Dora/avsmart_qiniu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dora/avthumb_normal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dora/avsmart_qiniu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dora/avsmart_qiniu.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,10 +23,11 @@
     <SUITE FILE_PATH="coverage/qiniu$stat.coverage" NAME="stat Coverage Results" MODIFIED="1542614696637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kodo" />
     <SUITE FILE_PATH="coverage/qiniu$chgm.coverage" NAME="chgm Coverage Results" MODIFIED="1542615494352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kodo" />
     <SUITE FILE_PATH="coverage/qiniu$Create_CDN_domain.coverage" NAME="Create_CDN_domain Coverage Results" MODIFIED="1543200933267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fusion" />
-    <SUITE FILE_PATH="coverage/qiniu$test.coverage" NAME="test Coverage Results" MODIFIED="1543213743384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dora" />
+    <SUITE FILE_PATH="coverage/qiniu$test.coverage" NAME="test Coverage Results" MODIFIED="1543214804372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dora" />
     <SUITE FILE_PATH="coverage/qiniu$build_batch_delete.coverage" NAME="build_batch_delete Coverage Results" MODIFIED="1542618088395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kodo" />
     <SUITE FILE_PATH="coverage/qiniu$Token.coverage" NAME="Token Coverage Results" MODIFIED="1543195819112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kodo" />
     <SUITE FILE_PATH="coverage/qiniu$mkbucketv2.coverage" NAME="mkbucketv2 Coverage Results" MODIFIED="1542362116035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/qiniu$avthumb.coverage" NAME="avthumb Coverage Results" MODIFIED="1543214819382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dora" />
     <SUITE FILE_PATH="coverage/qiniu$buckets2.coverage" NAME="buckets2 Coverage Results" MODIFIED="1542623056868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kodo" />
     <SUITE FILE_PATH="coverage/qiniu$move.coverage" NAME="move Coverage Results" MODIFIED="1542615974271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kodo" />
     <SUITE FILE_PATH="coverage/qiniu$buckets.coverage" NAME="buckets Coverage Results" MODIFIED="1542362371823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -37,17 +39,35 @@
       <file leaf-file-name="My_AKSK.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/My_AKSK.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="78">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="avsmart_qiniu.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dora/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="avsmart_qiniu.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dora/avsmart_qiniu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="130">
+              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="avthumb_normal.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dora/avthumb_normal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -125,6 +145,8 @@
         <option value="$PROJECT_DIR$/kodo/build_upload.py" />
         <option value="$PROJECT_DIR$/Dora/test.py" />
         <option value="$PROJECT_DIR$/Dora/avsmart_qiniu.py" />
+        <option value="$PROJECT_DIR$/Dora/avthumb.py" />
+        <option value="$PROJECT_DIR$/Dora/avthumb_normal.py" />
       </list>
     </option>
   </component>
@@ -199,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.avthumb">
     <configuration name="Create_CDN_domain" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="qiniu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -257,7 +279,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="build_upload" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="avthumb" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="qiniu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,12 +287,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kodo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dora" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kodo/build_upload.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dora/avthumb_normal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,18 +319,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.Token" />
-      <item itemvalue="Python.build_upload" />
       <item itemvalue="Python.Create_CDN_domain" />
       <item itemvalue="Python.avsmart_qiniu" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.avthumb" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.avthumb" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.avsmart_qiniu" />
         <item itemvalue="Python.Create_CDN_domain" />
         <item itemvalue="Python.Token" />
-        <item itemvalue="Python.build_upload" />
       </list>
     </recent_temporary>
   </component>
@@ -335,9 +357,9 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32969698" />
-      <window_info active="true" anchor="bottom" x="21" y="314" width="1398" height="272" id="Run" order="2" sideWeight="0.5007153" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" x="21" y="314" width="1398" height="272" id="Run" order="2" sideWeight="0.5007153" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" weight="0.32969698" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15450644" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15450644" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -672,13 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dora/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/qiniu/venv/lib/python3.7/site-packages/qiniu/services/processing/pfop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
@@ -686,17 +701,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dora/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/My_AKSK.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="78">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dora/avsmart_qiniu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="130">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dora/avthumb_normal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>

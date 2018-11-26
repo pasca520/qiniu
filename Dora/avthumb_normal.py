@@ -1,5 +1,6 @@
 from qiniu import Auth, PersistentFop, build_op, op_save, urlsafe_base64_encode
 # 自己的密钥对
+
 access_key = 'your_AK'
 secret_key = 'your_SK'
 
@@ -12,11 +13,11 @@ key = 'test.mp4'
 # 是使用的队列名称,不设置代表不使用私有队列，使用公有队列。
 pipeline = 'gloria_trial'
 
-# 设置转码参数
-fops = 'avsmart/mp4/oau/0'
+# 设置转码参数,
+fops = 'avthumb/avi/ab/64k/aq/300/ar/8000/r/30/vb/128K/vcodec/libx264'
 
 # 通过添加'|saveas'参数，指定处理后的文件保存的bucket和key，不指定默认保存在当前空间，bucket_saved为目标bucket，name_saved为目标key
-saveas_key = urlsafe_base64_encode('2018_11_16:test121')
+saveas_key = urlsafe_base64_encode('2018_11_16:test2')
 fops = fops+'|saveas/'+saveas_key
 
 # 执行持久化处理
